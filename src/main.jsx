@@ -4,6 +4,14 @@ import confetti from 'canvas-confetti';
 import {motion,AnimatePresence} from 'framer-motion';
 import {Heart, Sparkles, Gift, Lock, Music, Play, Pause, Menu, X, Star, Cake, Send, ChevronDown, ArrowDown, Volume2, Headphones, VolumeX} from 'lucide-react';
 import './styles.css';
+import photo1 from './images/WhatsApp Image 2026-08-28 at 21.53.54.jpeg';
+import photo2 from './images/WhatsApp Image 2026-08-28 at 21.51.41.jpeg';
+import photo3 from './images/WhatsApp Image 2026-08-28 at 21.51.40.jpeg';
+import photo4 from './images/WhatsApp Image 2026-08-28 at 21.52.31.jpeg';
+import photo5 from './images/WhatsApp Image 2026-08-28 at 21.52.13.jpeg';
+import photo6 from './images/WhatsApp Image 2026-08-28 at 21.52.30 (1).jpeg';
+import photo7 from './images/WhatsApp Image 2026-08-28 at 21.52.29.jpeg';
+import photo8 from './images/WhatsApp Image 2026-08-28 at 21.52.30.jpeg';
 
 // ================= CUSTOMIZE THESE =================
 const NAME='My Princess';
@@ -11,17 +19,18 @@ const BIRTHDAY='2026-12-25T00:00:00';
 const SECRET='VARSHA';
 const AUDIO='/birthday-audio.mp3';
 const LETTER=`Today is not just another date on the calendar. It is the day the world became a little brighter because you were born. Thank you for every smile, every memory, every silly moment and every beautiful conversation. I hope this new chapter brings you courage for every dream, peace for every difficult day, and countless reasons to smile. You deserve a life that feels as wonderful as you are.`;
-const photos=[
-    'src/images/WhatsApp Image 2026-08-28 at 21.53.54.jpeg',
-    'src/images/WhatsApp Image 2026-08-28 at 21.51.41.jpeg',
-    'src/images/WhatsApp Image 2026-08-28 at 21.51.40.jpeg',
 
-    'src/images/WhatsApp Image 2026-08-28 at 21.52.31.jpeg',
-    'src/images/WhatsApp Image 2026-08-28 at 21.52.13.jpeg',
-    'src/images/WhatsApp Image 2026-08-28 at 21.52.30 (1).jpeg',
-    'src/images/WhatsApp Image 2026-08-28 at 21.52.29.jpeg',
-    'src/images/WhatsApp Image 2026-08-28 at 21.52.30.jpeg'
+   const photos=[
+    photo1,
+    photo2,
+    photo3,
+    photo4,
+    photo5,
+    photo6,
+    photo7,
+    photo8
 ];
+
 const videos=[
  'https://www.w3schools.com/html/mov_bbb.mp4',
  'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4'
