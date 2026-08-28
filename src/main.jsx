@@ -12,7 +12,8 @@ import photo5 from './images/WhatsApp Image 2026-08-28 at 21.52.13.jpeg';
 import photo6 from './images/WhatsApp Image 2026-08-28 at 21.52.30 (1).jpeg';
 import photo7 from './images/WhatsApp Image 2026-08-28 at 21.52.29.jpeg';
 import photo8 from './images/WhatsApp Image 2026-08-28 at 21.52.30.jpeg';
-
+import video1 from "./images/WhatsApp Video 2026-08-28 at 21.53.05.mp4";
+import video2 from "./images/WhatsApp Video 2026-08-28 at 21.53.09.mp4";
 // ================= CUSTOMIZE THESE =================
 const NAME='My Princess';
 const BIRTHDAY='2026-12-25T00:00:00';
@@ -32,8 +33,8 @@ const LETTER=`Today is not just another date on the calendar. It is the day the 
 ];
 
 const videos=[
- 'https://www.w3schools.com/html/mov_bbb.mp4',
- 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4'
+    video1,
+    video2
 ];
 const timeline=[['01','The Beginning','The day our story got its first page.','🌙'],['02','Little Adventures','Laughs, trips and moments we still talk about.','🧳'],['03','Beautiful Chaos','Some memories were planned. The best ones were not.','🎞️'],['04','Today','Another year of you — and another reason to celebrate.','✨'],['05','Always','More chapters, more adventures, more us.','💗']];
 const reasons=[['Your smile','It can turn an ordinary moment into a favorite memory.','😊'],['Your heart','You care deeply, love loudly and make people feel seen.','💖'],['Your courage','You keep moving forward even when things get difficult.','🦋'],['Your magic','You have a way of making life feel a little more special.','✨']];
